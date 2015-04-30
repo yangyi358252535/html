@@ -1,0 +1,765 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Microsoft YaHei, SimSun;
+}
+
+body {
+	font-size: 12px;
+	text-align: center;
+	line-height: 16px;
+	background-color: #f5f5f5;
+}
+
+li {
+	list-style: none;
+}
+
+.c {
+	clear: both;
+}
+
+.d {
+	display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+img {
+	border: none;
+}
+
+body {
+	
+} /*over*/
+/*top.html*/
+#header {
+	position: fixed;
+	margin: 0px 0px 0px 0px;
+	height: 45px;
+	width: 100%;
+	background:
+		url(excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png)
+		repeat;
+	float: left;
+}
+
+#header p {
+	float: left;
+	text-align: left;
+	color: #CCC;
+	margin: 2px 0px 0px 260px;
+	display: inline;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 35px;
+	width: 100%;
+	background:
+		url(excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png)
+		repeat;
+	float: left;
+}
+
+#footer p {
+	float: none;
+	text-align: center;
+	color: #CCC;
+}
+
+#main {
+	position: absolute;
+	top: 60px;
+	left: 210px;
+	height: 420px;
+	width: 1110px;
+	border: 1px soild red;
+}
+
+.menubar {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 550px;
+}
+.menubar a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+.ordermenubar {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 550px;
+}
+.ordermenubar a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+.purchbar,.returnbillbar {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 750px;
+}
+
+.purchbarEx {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 750px;
+	height: 70px;
+}
+
+.purchbarEx a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+h1 {
+	padding: 10px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	color: #ffffff;
+	line-height: 20px;
+}
+
+.rightlist {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background: #FFF;
+}
+
+.rightlist h3 {
+	text-align: left;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 0px 2px 5px;
+	background:
+		url(excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png)
+		repeat;
+	line-height: 20px;
+	height: 20px;
+	color: #FFF;
+}
+
+.rightlist table {
+	width: 100%;
+}
+
+.rightlist table td {
+	border-bottom: 2px solid #eaeaea;
+	border-right: 2px solid #eaeaea;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+}
+
+.rightlist table td a {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+
+
+.returnbillbar a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+.purchbar a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+#tab1 a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+.rightlist table td a:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+.button {
+	background:
+		url(excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png)
+		repeat;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 11px;
+	border: #436a9d 1px solid;
+	width: 75px;
+	line-height: 20px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.pagebutton {
+	background: #86a1c5;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 7px;
+	border: #436a9d 1px solid;
+	width: 40px;
+	line-height: 20px;
+	height: 17px;
+	cursor: pointer;
+}
+
+.longbutton {
+	background: #86a1c5;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 11px;
+	border: #436a9d 1px solid;
+	width: 145px;
+	line-height: 20px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.searchbutton {
+	background: #86a1c5;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 11px;
+	border: #436a9d 1px solid;
+	width: 45px;
+	line-height: 20px;
+	height: 22px;
+	position: absolute;
+	left: 500px;
+	top: 0px;
+	cursor: pointer;
+}
+
+table button:hover {
+	text-decoration: none;
+	color: #FCDD4A;
+}
+
+.searchbutton:hover {
+	box-shadow: 0 1px 0 #FCDD4A inset;
+	background: #FCDD4A;
+}
+
+#page {
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	height: 20px;
+}
+
+.nextpage {
+	margin: 0px 5px 0px 5px;
+	color: #03F;
+}
+
+.nextpage:hover {
+	color: #09F;
+}
+
+.prevpage {
+	margin: 0px 5px 0px 5px;
+	color: #03F;
+}
+
+.prevpage:hover {
+	color: #09F;
+}
+
+.thispage {
+	margin: 0px 5px 0px 5px;
+}
+
+.allpage {
+	margin: 0px 5px 0px 5px;
+}
+
+.rightbottom {
+	text-align: right;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 10px 2px 5px;
+	background:
+		url(excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png)
+		repeat;
+	line-height: 20px;
+	height: 20px;
+	color: #FFF;
+}
+
+.number {
+	padding: 0px 5px 0px 5px;
+	color: #000;
+}
+
+.error {
+	color: #F00;
+}
+
+.right-p {
+	text-align: left;
+	float: left;
+	width: 700px;
+	height: 23px;
+	line-height: 23px;
+	margin: 2px 0px 0px 10px;
+}
+
+.right-p-more {
+	float: left;
+	width: 700px;
+	height: 80px;
+	font-size: 13px;
+	vertical-align: top;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+}
+
+.f {
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+/*二级菜单*/
+#nav {
+	width: 100%;
+	height: 55px;
+	text-align: left;
+	margin: 15px 0px 0px 0px;
+	overflow: hidden;
+	border-bottom: 3px solid #eaeaea;
+}
+
+.active {
+	background: #71aadf;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: none;
+}
+
+.selected {
+	color: #08c;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+b {
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+	border: 2px solid #eaeaea;
+	height: 30px;
+	line-height: 30px;
+}
+
+#nav p {
+	margin: 8px 10px 0px 10px;
+}
+
+.navlink {
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	color: #6c6f73;
+}
+
+.navlink:hover {
+	color: #08c;
+}
+
+.errorSpan {
+	color: #F00;
+	text-align: right;
+	font-family: Microsoft YaHei, SimSun;
+}
+
+.popuplist table thead tr {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	overflow: hidden;
+	height: 25px;
+	background: lightgray;
+	color: blue;
+}
+
+.popuplist table thead tr td {
+	text-align: center;
+	font-size: 12px;
+	border: 0px;
+}
+
+.popuplist table tbody tr td {
+	text-align: center;
+	font-size: 12px;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	height: 25px;
+}
+
+.searchInput {
+	position: absolute;
+	left: -550px;
+	top: 0px;
+	font-size: 12px;
+	color: red;
+}
+#orderInput {
+	position: absolute;
+	left: -550px;
+	top: 0px;
+	font-size: 12px;
+	color: red;
+}
+.medicineSelect {
+	height: 20px;
+	width: 160px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+.configSelect {
+	height: 20px;
+	width: 50px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+#effect {
+	width: 800px;
+	height: 50px;
+	position: absolute;
+	bottom: 50px;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	padding: 8px 55px 8px 14px;
+	margin-top: 20px;
+	padding: 0 .7em;
+	background-color: #F2DEDE;
+	overflow: auto;
+	font-size: 16px;
+	color: red;
+}
+
+#medicineWarnning {
+	width: 300px;
+	height: 50px;
+	padding: 0.4em;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	border: 2px solid #FF77AD;
+	background-color: lightgray;
+	overflow: auto;
+	font-size: 16px;
+	color: red;
+}
+
+#dialog-message1 {
+	width: 800px;
+	height: 50px;
+	padding: 0.4em;
+	position: absolute;
+	bottom: 50px;
+	border: 2px solid #FF77AD;
+	background-color: lightgray;
+	overflow: auto;
+	font-size: 16px;
+	color: red;
+}
+
+.inputTextStyle {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 168px;
+}
+.inputTextStyle33 {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: left;
+	height: 18px;
+	width: 168px;
+}
+.inputTextStyleForAddr {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	height: 18px;
+	width: 368px;
+}
+.inputTextStyle1 {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 120px;
+}
+
+.inputTextStyle2 {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 53px;
+}
+.inputTextStyle3 {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 353px;
+}
+
+.inputTextStyleNumber {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 150px;
+}
+
+.inputTextStyleForSearh {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 150px;
+}
+
+.inputTextStyleSmall {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	text-align: right;
+	height: 18px;
+	width: 120px;
+}
+
+.inputTextStyleSmallNotBorder {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+	height: 18px;
+	width: 120px;
+}
+
+.inputTextStyleSmallNotBorderForMedi {
+	border: none;
+	background-color: transparent;
+	text-align: left;
+	height: 18px;
+	width: 180px;
+}
+
+.inputTextStyleSmallNotBorderTextAlign {
+	border: none;
+	background-color: transparent;
+	text-align: right;
+	height: 18px;
+	width: 120px;
+}
+.inputTextStyleSmallNotBorderTextAlign1 {
+	border: none;
+	background-color: transparent;
+	text-align: right;
+	height: 18px;
+	width: 50px;
+}
+
+.inputTextStyleSmallNotBorder1 {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+	height: 18px;
+	width: 53px;
+}
+.inputTextStyleSmallNotBorder2 {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+	height: 18px;
+	width: 25px;
+}
+.inputTextStyleSmallNotBorder3{
+	border: none;
+	background-color: transparent;
+	text-align: left;
+	height: 25px;
+	width: 45px;
+}
+.inputTextStyleForFindSuppliers {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	height: 18px;
+	width: 168px;
+}
+
+.inputTextStyleForFindMedicines {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	height: 18px;
+	width: 268px;
+}
+
+.selectStyle {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	font-size: 13px;
+	height: 20px;
+}
+
+.tdBorderRight {
+	border-right: 1px solid lightgray;
+}
+
+.tdBorderTopAndLeft {
+	border-left: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+.tdBorderTop {
+	border-top: 1px solid lightgray;
+}
+
+.tdBorderTopAndRight {
+	border-right: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+.tdNone {
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+.suppliersSelectStyle {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	width: 170px;
+	font-size: 13px;
+	height: 20px;
+}
+
+.textAreaStyle {
+	width: 300px;
+	resize: none;
+	height: 60px;
+	font-size: 13px;
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+}
+
+.positionSelect {
+	height: 20px;
+	width: 170px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+
+.deskSelect {
+	height: 20px;
+	width: 80px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+.authSelect {
+	height: 20px;
+	width: 120px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+.searchMed {
+	height: 20px;
+	width: 125px;
+	font-size: 13px;
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+}
+
+.selectNumStyle {
+	border-style: groove;
+	border-width: thin;
+	border-color: gray;
+	font-size: 13px;
+	width: 105px;
+	height: 20px;
+}
+
+#container {
+	MARGIN-LEFT: auto;
+	WIDTH: 100%;
+	MARGIN-RIGHT: auto;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: center
+}
+
+HTML {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 14px;
+	BACKGROUND: #ffffff;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Tahoma, Verdana, "??";
+	TEXT-ALIGN: center
+}
+
+#dialog_link {
+	padding: 0.4em 1em 0.4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+#accordion  li {
+	text-align: left;
+	text-decoration: none;
+}
+
+#accordion  h3 {
+	text-align: left;
+}

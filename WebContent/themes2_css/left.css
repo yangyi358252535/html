@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置*/
+ul,ol,menu {
+	list-style: none outside none;
+}
+
+a {
+	color: #08c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #08c;
+	text-decoration: underline;
+}
+#leftmenu {
+	float: left;
+	width: 205px;
+	height: auto;
+	background-color: #FFF;
+	border-right: 2px solid #eaeaea;
+	position: absolute;
+	top: 58px;
+}
+
+.welcome {
+	font-size: 12px;
+	float: left;
+	width: 190px;
+	text-align: left;
+	border: 2px solid #eaeaea;
+	margin: 5px 0px 5px 5px;
+	padding: 0px 0px 3px 0px;
+	display: inline;
+}
+
+.welcome img {
+	margin: 5px 0px 0px 5px;
+	float: left;
+	border: 1px solid #eaeaea;
+}
+
+.welcome span {
+	float: left;
+	width: 100px;
+	margin: 5px 0px 0px 5px;
+	height: 20px;
+	line-height: 20px;
+	color: #38599c;
+	font-weight: 700;
+}
+
+.user {
+	overflow: hidden;
+	color: #38599c;
+	width: 60px;
+	float: left;
+	margin: 2px 0px 0px 20px;
+}
+/*over*/
+
+#accordion li {
+	margin: 0;
+}
+
+#accordion ul li {
+	padding: 0;
+}
+
+#accordion ul li a {
+	height: 30px;
+	line-height: 20px;
+}
+
+#accordion ul li a:hover {
+	background-position: right -150px;
+}
+
+#accordion ul li a:active {
+	background-position: right -120px;
+}
+/*over*/

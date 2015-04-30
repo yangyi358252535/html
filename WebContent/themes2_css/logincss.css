@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Microsoft YaHei, SimSun;
+}
+	
+body {
+	font-size: 12px;
+	text-align: center;
+	line-height: 16px;
+}
+
+li {
+	list-style: none;
+}
+
+.c {
+	clear: both;
+}
+
+.d {
+	display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+img {
+	border: none;
+}
+
+body {
+	background-color: white;
+}
+
+#login_main {
+	width: 540px;
+	height: 390px;
+	margin: 100px auto;
+	background: url(../images/login-form.png) no-repeat center top;
+}
+
+.loginname {
+	outline: none;
+	position: relative;
+	right:-23px;  
+	top: 138px;
+	width: 293px;
+	height: 30px;
+	background-color: transparent;
+	border: none;
+	line-height: 20px;
+	font-size: 16px;
+	color: #666666;
+	text-align: left;
+}
+
+.loginpassword {
+	outline: none;
+	position: relative;
+	right:-23px;  
+	top: 158px;  
+	width: 293px;
+	height: 26px;
+	background-color: transparent;
+	border: none;
+	line-height: 20px;
+	font-size: 16px;
+	color: #666666;
+	text-align: left;
+}
+
+.loginbutton {
+	position: relative;
+	height: 120px;
+	right: 134px; 
+	top: 179px;
+}
+.button { 
+	width: 125px;
+	height: 41px;
+	background: url(../images/loginbutton.png) center no-repeat;
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	float: right;
+}
+p {
+	font:bold;
+	font-size: 16px;
+	color: #F00;
+	text-align: right;
+	position: relative;
+	height: 20px;
+	right: 270px;
+	top: 70px;
+}
+
